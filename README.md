@@ -1,6 +1,7 @@
 # Big Data Mining of Galena Geochemistry using Machine Learning
 
-![Graphical Abstract](figures/graphical_abstract.png)
+![Graphical Abstract](./figures/graphical_abstract.png)
+
 
 
 
