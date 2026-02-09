@@ -67,7 +67,6 @@ The analytical and modeling workflow implemented in this repository includes:
 ## Repository Structure
 
 Galena-Geochemistry-ML-Metallogenic-Discrimination/
-│
 ├── figures/
 │ ├── graphical_abstract.png
 │ └── README.md
