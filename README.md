@@ -135,5 +135,3 @@ For detailed copyright and usage information, see
 Geoscientist | Machine Learning | Metallogenic Modeling  
 
 GitHub: https://github.com/Dr-Amar
-
-GitHub: https://github.com/Dr-Amar
