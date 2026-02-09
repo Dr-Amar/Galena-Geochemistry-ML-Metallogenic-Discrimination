@@ -6,7 +6,7 @@
 
 ## Publication Status
 
-This repository accompanies the peer-reviewed manuscript:
+This repository accompanies the peer-reviewed journal article:
 
 **Big Data mining on galena geochemistry using machine learning algorithms:  
 Implications for metallogenic discrimination**
@@ -15,25 +15,28 @@ Implications for metallogenic discrimination**
 Manuscript ID: **MATG-D-25-00004**
 
 The final published article is **not open access**. In accordance with publisher
-copyright policies, the full manuscript text is **not shared** in this repository.
-This repository provides the **supporting machine-learning workflows, figures,
-and reproducible analysis** underlying the study.
+copyright policies, the full manuscript text is **not distributed** through this
+repository. Instead, this repository provides the **supporting machine-learning
+workflows, figures, and reproducible analyses** underlying the study.
 
 ---
 
 ## Overview
 
-This study applies supervised machine-learning algorithms to **LA-ICP-MS
+This study applies supervised machine-learning techniques to **LA-ICP-MS
 trace-element geochemistry of galena** in order to classify metallogenic deposit
 types and evaluate their geochemical discriminability.
 
-The compiled dataset represents a large and diverse collection of galena
-analyses spanning multiple deposit environments. Machine-learning models are
-used to (i) quantify classification performance, (ii) identify diagnostic trace
-elements, and (iii) explore the metallogenic significance of galena chemistry in
-a data-driven framework.
+A large and diverse global dataset of galena compositions is compiled and analyzed
+using multiple machine-learning algorithms. The objectives of this work are to:
 
-### Deposit types investigated
+- Quantify classification performance across deposit types  
+- Identify diagnostic trace elements controlling metallogenic signatures  
+- Explore galena geochemistry within a robust, data-driven metallogenic framework  
+
+---
+
+## Metallogenic Deposit Types Investigated
 
 - SEDEX  
 - Epithermal  
@@ -50,15 +53,16 @@ a data-driven framework.
 The analytical and modeling workflow implemented in this repository includes:
 
 - Data preprocessing and **z-score standardization**
-- Class-imbalance handling using **SMOTE** and **random undersampling with
-  clustering (RUC)**
+- Class-imbalance handling using:
+  - **SMOTE (Synthetic Minority Over-sampling Technique)**
+  - **Random undersampling with clustering (RUC)**
 - Supervised machine-learning models:
   - Random Forest (RF)
   - Gradient Boosting (GB)
   - Multi-Layer Perceptron (MLP)
   - Support Vector Machine (SVM)
 - **Blind testing** and **k-fold cross-validation**
-- Model performance evaluation using accuracy and confusion matrices
+- Model performance evaluation using accuracy metrics and confusion matrices
 - Feature-importance analysis
 - **t-SNE** visualization for high-dimensional data exploration
 
@@ -84,10 +88,22 @@ Galena-Geochemistry-ML-Metallogenic-Discrimination/
 ```
 
 
+
+---
+
+## Reproducibility
+
+All Jupyter notebooks provided in the `notebooks/` directory are designed to be
+**fully reproducible**, subject to data availability and computational environment.
+Each notebook corresponds to a specific machine-learning model described in the
+manuscript.
+
+---
+
 ## Citation
 
 Formal citation details (DOI, volume, issue, and page numbers) will be added once
-The article is published online.
+the article is published online.
 
 Until then, if you use this repository, please cite the corresponding journal
 article as:
@@ -101,10 +117,14 @@ article as:
 ## License and Disclaimer
 
 This repository does **not** contain the final published manuscript or any
-publisher-copyrighted material. All rights to the published article remain with
-the publisher.
+publisher-copyrighted content. All rights to the published article remain with the
+publisher.
 
-For copyright and usage information, see  
+The code, figures, and workflows provided here are intended for **academic and
+research use** only. No warranty is provided regarding suitability for commercial
+or exploration decision-making.
+
+For detailed copyright and usage information, see  
 [`DISCLAIMER.md`](DISCLAIMER.md).
 
 ---
@@ -113,4 +133,7 @@ For copyright and usage information, see
 
 **Dr. Amar Gul**  
 Geoscientist | Machine Learning | Metallogenic Modeling  
+
+GitHub: https://github.com/Dr-Amar
+
 GitHub: https://github.com/Dr-Amar
