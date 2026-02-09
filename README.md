@@ -66,22 +66,22 @@ The analytical and modeling workflow implemented in this repository includes:
 
 ## Repository Structure
 
+```
 Galena-Geochemistry-ML-Metallogenic-Discrimination/
 ├── figures/
-│ ├── graphical_abstract.png
-│ └── README.md
+│   ├── graphical_abstract.png
+│   └── README.md
 │
 ├── notebooks/
-│ ├── 1_Galena-RF.ipynb
-│ ├── 2_Galena-GB.ipynb
-│ ├── 3_Galena-MLP.ipynb
-│ └── 4_Galena-SVM.ipynb
+│   ├── 1_Galena-RF.ipynb
+│   ├── 2_Galena-GB.ipynb
+│   ├── 3_Galena-MLP.ipynb
+│   └── 4_Galena-SVM.ipynb
 │
 ├── README.md
 ├── DISCLAIMER.md
 └── .gitignore
-
-
+```
 
 ---
 
