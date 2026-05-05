@@ -8,11 +8,16 @@
 
 This repository accompanies the peer-reviewed journal article:
 
-**Big Data mining on galena geochemistry using machine learning algorithms:  
-Implications for metallogenic discrimination**
+**Big Data Mining on Galena Geochemistry Using Machine Learning Algorithms:  
+Implications for Metallogenic Discrimination**
 
-*Accepted for publication in* **Mathematical Geosciences**  
-Manuscript ID: **MATG-D-25-00004**
+Published in **Mathematical Geosciences**.
+
+**Citation:**  
+Gul, M.A., Kanwal, A., Yang, X. *et al.* Big Data Mining on Galena Geochemistry Using Machine Learning Algorithms: Implications for Metallogenic Discrimination. *Mathematical Geosciences* (2026).  
+https://doi.org/10.1007/s11004-026-10274-0
+
+**DOI:** [10.1007/s11004-026-10274-0](https://doi.org/10.1007/s11004-026-10274-0)
 
 The final published article is **not open access**. In accordance with publisher
 copyright policies, the full manuscript text is **not distributed** through this
@@ -30,20 +35,24 @@ types and evaluate their geochemical discriminability.
 A large and diverse global dataset of galena compositions is compiled and analyzed
 using multiple machine-learning algorithms. The objectives of this work are to:
 
-- Quantify classification performance across deposit types  
-- Identify diagnostic trace elements controlling metallogenic signatures  
-- Explore galena geochemistry within a robust, data-driven metallogenic framework  
+- Quantify classification performance across deposit types
+- Identify diagnostic trace elements controlling metallogenic signatures
+- Explore galena geochemistry within a robust, data-driven metallogenic framework
+- Support reproducible, data-driven mineral-deposit discrimination using machine learning
 
 ---
 
 ## Metallogenic Deposit Types Investigated
 
-- SEDEX  
-- Epithermal  
-- MVT (Mississippi Valley–Type)  
-- Metamorphosed  
-- Skarn  
-- Vein  
+The study evaluates galena geochemistry from the following metallogenic deposit
+types:
+
+- SEDEX
+- Epithermal
+- MVT (Mississippi Valley–Type)
+- Metamorphosed
+- Skarn
+- Vein
 - CRD (Carbonate-Replacement Deposits)
 
 ---
@@ -64,13 +73,13 @@ The analytical and modeling workflow implemented in this repository includes:
 - **Blind testing** and **k-fold cross-validation**
 - Model performance evaluation using accuracy metrics and confusion matrices
 - Feature-importance analysis
-- **t-SNE** visualization for high-dimensional data exploration
+- **t-SNE** visualization for high-dimensional geochemical data exploration
 
 ---
 
 ## Repository Structure
 
-```
+```text
 Galena-Geochemistry-ML-Metallogenic-Discrimination/
 ├── figures/
 │   ├── graphical_abstract.png
@@ -85,11 +94,17 @@ Galena-Geochemistry-ML-Metallogenic-Discrimination/
 ├── README.md
 ├── DISCLAIMER.md
 └── .gitignore
-```
 
+Notebook Description
 
+The notebooks in this repository correspond to the main supervised
+machine-learning models used in the study.
 
----
+Notebook	Model	Purpose
+1_Galena-RF.ipynb	Random Forest	Classification and feature-importance analysis
+2_Galena-GB.ipynb	Gradient Boosting	Ensemble-based metallogenic classification
+3_Galena-MLP.ipynb	Multi-Layer Perceptron	Neural-network-based classification
+4_Galena-SVM.ipynb	Support Vector Machine	Kernel-based supervised classification
 
 ## Reproducibility
 
@@ -102,16 +117,10 @@ manuscript.
 
 ## Citation
 
-Formal citation details (DOI, volume, issue, and page numbers) will be added once
-the article is published online.
+If you use this repository, workflow, figures, or machine-learning approach,
+please cite the published article:
 
-Until then, if you use this repository, please cite the corresponding journal
-article as:
-
-> Gul, M. A., *et al.* (accepted). Big Data mining on galena geochemistry using
-> machine learning algorithms: Implications for metallogenic discrimination.
-> **Mathematical Geosciences**.
-
+Gul, M.A., Kanwal, A., Yang, X. et al. Big Data Mining on Galena Geochemistry Using Machine Learning Algorithms: Implications for Metallogenic Discrimination. Math Geosci (2026). https://doi.org/10.1007/s11004-026-10274-0
 ---
 
 ## License and Disclaimer
