@@ -94,7 +94,7 @@ Galena-Geochemistry-ML-Metallogenic-Discrimination/
 ├── README.md
 ├── DISCLAIMER.md
 └── .gitignore
-
+---
 ## Notebook Description
 
 The notebooks in this repository correspond to the main supervised
@@ -106,6 +106,7 @@ Notebook	Model	Purpose
 3_Galena-MLP.ipynb	Multi-Layer Perceptron	Neural-network-based classification
 4_Galena-SVM.ipynb	Support Vector Machine	Kernel-based supervised classification
 
+---
 ## Reproducibility
 
 All Jupyter notebooks provided in the `notebooks/` directory are designed to be
