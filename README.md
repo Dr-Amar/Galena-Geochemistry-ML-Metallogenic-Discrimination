@@ -95,7 +95,7 @@ Galena-Geochemistry-ML-Metallogenic-Discrimination/
 ├── DISCLAIMER.md
 └── .gitignore
 
-Notebook Description
+## Notebook Description
 
 The notebooks in this repository correspond to the main supervised
 machine-learning models used in the study.
